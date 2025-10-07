@@ -3,7 +3,7 @@ Data and code of the article "Impact of Angle-Voltage Coupling on Small-Signal S
 
 This source code repository accompanies the following paper:
 
-> X. Peng, C. Fu, P. Yang, X. Ru, and F. Liu, "Impact of Angle-Voltage Coupling on Stability of Inverter-Dominant Power Systems: A Damping Perspective," *IEEE Transactions on Circuits and Systems I: Regular Papers*, 2025.
+> X. Peng, C. Fu, P. Yang, X. Ru, and F. Liu, "Impact of Angle-Voltage Coupling on Small-Signal Stability of Power Systems: A Damping Perspective," *IEEE Transactions on Circuits and Systems I: Regular Papers*, 2025.
 
 The full paper and the source code can be found at: https://github.com/lingo01/Damping_Redistribution
 
