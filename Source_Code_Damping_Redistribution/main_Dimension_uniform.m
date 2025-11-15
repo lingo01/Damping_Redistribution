@@ -137,6 +137,8 @@ title('(a)', 'FontName', 'Times New Roman')
 xlim([0, 1000])
 
 subplot(3,2,2); hold on; grid on; box on;
+% state = [2;2;2;2;2;3;3;3;2;3;3;3;3;3;3] denote the numbers of all states
+% for exmaple: state(1) = 2 indicates the 1-st device has 2 states.
 plot(devNum, totalDamping' ./ (dynaDevNum * [2;2;2;2;2;3;3;3;2;3;3;3;3;3;3]), '-o', 'LineWidth', 1.2);
 xlabel('n_{total}', 'FontName', 'Times New Roman');
 ylabel('Average damping', 'FontName', 'Times New Roman')
@@ -147,3 +149,4 @@ xlim([0, 1000]);     ylim([0, Inf])
 %%
 
 toc;
+
