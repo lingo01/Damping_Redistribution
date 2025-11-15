@@ -26,7 +26,7 @@ Load_orig = Load;
 Gen_orig = Gen;
 type_orig = type;
 
-dynaDevPos = [04, 08, 12, 15, 20, 24, 30, 31, 32, 34, 35, 36, 37, 38, 39];
+dynaDevPos = [04, 08, 12, 15, 20, 24, 30, 31, 32, 34, 35, 36, 37, 38, 39];  % position of dynamic devices, should be same with ElementList_IEEE39Hete.xlsx 
 
 parallelAdmittance = 5e4j;
 
@@ -148,4 +148,5 @@ for rr = 1 : size(dynaDevNum, 1)
 end
 
 %%
+
 toc;
